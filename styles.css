@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-----Header-----*/
+/*----------------*/
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+    height: 70px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.options{
+    display: flex;
+}
+
+.simple{
+    margin-right: 10px;
+}
+
+.app-name{
+    color: #15aabf;
+}
+
+
+
+/*------Main-----*/
+/*---------------*/
+
+
+
+main{
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+    margin-bottom: 70px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight:bold;
+    font-size: 24px;
+}
+
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
