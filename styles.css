@@ -15,6 +15,7 @@ header{
     height: 70px;
     align-items: center;
     font-size: 24px;
+    background-color: white;
 }
 
 .options{
@@ -29,6 +30,15 @@ header{
     color: #15aabf;
 }
 
+.simple, .hex, .simple:visited, .hex:visited {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.simple:hover, .hex:hover {
+    color: #15aabf;
+}
 
 
 /*------Main-----*/
@@ -45,6 +55,7 @@ main{
 }
 
 .display{
+    display: flex;
     margin-bottom: 70px;
     padding: 20px;
     background-color: black;
@@ -60,4 +71,5 @@ button {
     border-radius: 5px;
     background-color: white;
     padding: 10px;
+    cursor: pointer;
 }
